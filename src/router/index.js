@@ -2,6 +2,7 @@ import Vue from "vue"
 import VueRouter from "vue-router"
 import Home from "../views/Home.vue"
 import About from "../views/About.vue"
+import MyPage from "../views/MyPage.vue"
 
 Vue.use(VueRouter)
 
@@ -19,7 +20,7 @@ const routes = [
   {
     path: "/my-page",
     name: "MyPage",
-    component: About,
+    component: MyPage,
   },
 ]
 
